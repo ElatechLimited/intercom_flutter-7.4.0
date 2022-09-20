@@ -1,0 +1,30 @@
+{
+  "name": "intercom_flutter",
+  "version": "5.0.0",
+  "summary": "Intercom integration for Flutter",
+  "description": "A new flutter plugin project.",
+  "homepage": "https://github.com/ChangeFinance/intercom_flutter",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "xChange OÜ": "maido@getchange.com"
+  },
+  "source": {
+    "path": "."
+  },
+  "source_files": "Classes/**/*",
+  "public_header_files": "Classes/**/*.h",
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "Intercom": [
+      "~> 12.4.3"
+    ]
+  },
+  "static_framework": true,
+  "platforms": {
+    "ios": "11.2"
+  }
+}
